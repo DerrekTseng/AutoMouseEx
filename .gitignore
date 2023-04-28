@@ -1,0 +1,12 @@
+.target
+.settings/
+bin/
+.target/**
+target
+/bin/
+/Servers/
+build
+target
+/.metadata/
+*.class
+/bin/
