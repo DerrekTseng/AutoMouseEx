@@ -82,7 +82,7 @@ public class WindowHooks {
 		if (!running.get()) {
 			running.set(true);
 		} else {
-			throw new IllegalAccessError("WindowHooks is already on running");
+			throw new IllegalAccessError("WindowHooks is already running");
 		}
 
 		executor.execute(() -> {
@@ -189,7 +189,13 @@ public class WindowHooks {
 	}
 
 	public static void stop() {
-		running.set(false);
+		if (running.get()) {
+			running.set(false);
+			lib.UnhookWindowsHookEx(keyboardHook);
+			lib.UnhookWindowsHookEx(mouseHook);
+		} else {
+			throw new IllegalAccessError("WindowHooks is not running");
+		}
 	}
 
 }
