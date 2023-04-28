@@ -1,7 +1,7 @@
-package main.callback;
+package ame.callback;
 
-import main.enums.MouseButton;
-import main.enums.MouseEvent;
+import ame.enums.MouseButton;
+import ame.enums.MouseEvent;
 
 @FunctionalInterface
 public interface MouseButtonCallback {

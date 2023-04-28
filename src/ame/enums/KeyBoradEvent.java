@@ -1,4 +1,4 @@
-package main.enums;
+package ame.enums;
 
 import com.sun.jna.platform.win32.WinUser;
 

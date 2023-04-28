@@ -1,4 +1,4 @@
-package main.callback;
+package ame.callback;
 
 @FunctionalInterface
 public interface MouseMoveCallback {

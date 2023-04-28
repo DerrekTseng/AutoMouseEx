@@ -1,4 +1,4 @@
-package main;
+package ame;
 
 import java.awt.AWTException;
 import java.awt.GraphicsConfiguration;
@@ -14,7 +14,7 @@ import java.util.Random;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicLong;
 
-import main.hook.WindowHooks;
+import ame.hook.WindowHooks;
 
 public class Main {
 

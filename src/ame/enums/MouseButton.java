@@ -1,4 +1,4 @@
-package main.enums;
+package ame.enums;
 
 public enum MouseButton {
 	LEFT, RIGHT, MIDDLE

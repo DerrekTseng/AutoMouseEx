@@ -1,4 +1,4 @@
-package main.hook;
+package ame.hook;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,12 +21,12 @@ import com.sun.jna.platform.win32.WinUser.KBDLLHOOKSTRUCT;
 import com.sun.jna.platform.win32.WinUser.LowLevelKeyboardProc;
 import com.sun.jna.platform.win32.WinUser.MSG;
 
-import main.callback.KeyboardEventCallBack;
-import main.callback.MouseButtonCallback;
-import main.callback.MouseMoveCallback;
-import main.enums.KeyBoradEvent;
-import main.enums.MouseButton;
-import main.enums.MouseEvent;
+import ame.callback.KeyboardEventCallBack;
+import ame.callback.MouseButtonCallback;
+import ame.callback.MouseMoveCallback;
+import ame.enums.KeyBoradEvent;
+import ame.enums.MouseButton;
+import ame.enums.MouseEvent;
 
 public class WindowHooks {
 

@@ -1,8 +1,8 @@
-package main.callback;
+package ame.callback;
 
 import com.sun.jna.platform.win32.Win32VK;
 
-import main.enums.KeyBoradEvent;
+import ame.enums.KeyBoradEvent;
 
 @FunctionalInterface
 public interface KeyboardEventCallBack {
