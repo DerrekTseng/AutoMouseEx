@@ -10,3 +10,5 @@ target
 /.metadata/
 *.class
 /bin/
+.classpath
+.project

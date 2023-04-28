@@ -20,6 +20,8 @@ public class Main {
 
 	static final long AFKTime = (long) (1000 * 60 * 2);
 
+	static final long checkAFK = 5000L;
+
 	static Map<Robot, Rectangle> RobotRectangle = new HashMap<>();
 	static Random random = new Random();
 
@@ -51,7 +53,7 @@ public class Main {
 				if (shoudMove()) {
 					moveMouse();
 					System.out.println("moved");
-					sleep(AFKTime);
+					sleep(checkAFK);
 				}
 			}
 		});
